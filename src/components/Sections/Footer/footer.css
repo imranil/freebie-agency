@@ -1,0 +1,66 @@
+.footer {
+    padding: 140px 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #2E2E2E;
+}
+
+.footer .address,
+.footer .contacts {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.footer .social {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .social .icon{
+    padding: 2px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+    border-radius: 50%;
+    background-color: #2E2E2E;
+    border: 2px solid #fff;
+}
+
+.footer .social .icon:hover{ 
+    cursor: pointer;
+    filter: invert(1); 
+    opacity: 1;
+    border: 2px solid #2E2E2E;
+}
+
+.footer .social .icon.facebook-logo {
+    background-image: url('../../../assets/icons/facebook.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}
+
+.footer .social .icon.twitter-logo {
+    background-image: url('../../../assets/icons/twitter.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}
+
+.footer .social .icon.pinterest-logo {
+    background-image: url('../../../assets/icons/pinterest.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+}

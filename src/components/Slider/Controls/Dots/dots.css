@@ -1,0 +1,28 @@
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 28px;
+    z-index: 2;
+}
+
+.dot {
+    margin: 6px;
+    background-color: rgba(76, 175, 80, .75);
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    transition: all 0.5s;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.dot.selected {
+    height: 18px;
+    width: 18px;
+    background-color: rgba(76, 175, 80, 1);
+}
+

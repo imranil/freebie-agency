@@ -1,0 +1,69 @@
+.contact-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-section .tell-us,
+.contact-section .contact-us {
+    flex: 1;
+    padding: 70px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.contact-section .tell-us {
+    background-color: #f3f3f3;
+    color: #373737;
+}
+
+.contact-section .tell-us .briefcase-icon {
+    height: 36px;
+    width: 36px;
+    background-image: url('../../../assets/icons/briefcase.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact-section .contact-us {
+    background-color: #70BD59;
+    color: #fff;
+}
+
+.contact-section .contact-us .mail-icon {
+    height: 36px;
+    width: 36px;
+    background-image: url('../../../assets/icons/mail.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: invert(1); 
+}
+
+.contact-section .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 2.5px;
+}
+
+.contact-section .description {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    opacity: 0.8;
+}
+
+@media (max-width:576px) {
+    .contact-section .tell-us .briefcase-icon,
+    .contact-section .contact-us .mail-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .contact-section .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

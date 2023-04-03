@@ -1,0 +1,33 @@
+.works-section {
+    background-color: #FBFBFB;
+    padding: 209px 0 177px;
+}
+
+
+.works-section .works-section-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.works-section .btn-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.works-section .btn-area .view-more {
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.works-section .btn-area .view-more:hover {
+    cursor: pointer;
+}

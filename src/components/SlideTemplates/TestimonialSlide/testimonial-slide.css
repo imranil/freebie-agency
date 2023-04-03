@@ -1,0 +1,57 @@
+.testimonial-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 50%;
+}
+
+.testimonial-slide:after {
+    content: "";
+    position: relative;
+    bottom: 0;
+    width: 70%;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.testimonial-slide .comment {
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+
+.testimonial-slide .comment:after {
+    content: "";
+    display: block;
+    margin: 20px auto 0;
+    height: 20px;
+    width: 20px;
+    background-image: url('../../../assets/icons/quote.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.testimonial-slide .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.testimonial-slide .profile .name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1.15px;
+    color: #373737;
+    text-transform: uppercase;
+}
+
+.testimonial-slide .profile .profession {
+    font-size: 18px;
+    line-height: 28px;
+    color: #373737;
+    opacity: .5;
+}

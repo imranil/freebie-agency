@@ -1,0 +1,19 @@
+.section-title {
+    color:#252525;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 3px;
+    transform: translateX(-45px);
+}
+
+.section-title:before {
+    content: "";
+    position: relative;
+    left: 45px;
+    bottom: 0;
+    width: 45px;
+    border-bottom: 2px solid #252525;
+}
